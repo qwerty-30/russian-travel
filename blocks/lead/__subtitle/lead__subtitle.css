@@ -1,0 +1,40 @@
+/* Desktop 1280px+ */
+
+.lead__subtitle {
+    width: 640px;
+    margin: 32px 0 64px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+/* Laptop 1024px - 1279px*/
+
+@media screen and (max-width: 1279px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+/* Tablet 768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .lead__subtitle {
+        margin-top: 32px;
+        margin-bottom: 56px;
+    }
+}
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        width: 288px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

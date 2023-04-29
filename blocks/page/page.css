@@ -1,5 +1,6 @@
 .page {
     background-color: #2A2C2F;
     color: #FFFFFF;
-    font-family: 'Inter', Arial, serif;
+    font-family: 'Inter', serif;
+    text-rendering: optimizeLegibility;
 }

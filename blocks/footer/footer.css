@@ -1,0 +1,29 @@
+/* Desktop 1280px+ */
+
+.footer {
+    padding: 92px 48px 24px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 88px 24px 24px;
+    }
+}
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 64px 118px 24px 16px;
+        grid-auto-flow: row;
+        row-gap: 48px;
+    }
+}

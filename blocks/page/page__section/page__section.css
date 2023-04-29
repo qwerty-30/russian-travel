@@ -1,0 +1,30 @@
+/*1280px + */
+
+.page__section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*1024px - 1279px*/
+
+@media screen and (max-width: 1279px) {
+    .page__section {
+        max-width: 1279px;
+    }
+}
+
+/*768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .page__section {
+        max-width: 1023px;
+    }
+}
+
+/* - 767px*/
+
+@media screen and (max-width: 767px) {
+    .page__section {
+        max-width: 767px;
+    }
+}

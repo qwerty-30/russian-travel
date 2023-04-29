@@ -1,0 +1,16 @@
+/* Desktop 1280px+ */
+
+.cover__link {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
