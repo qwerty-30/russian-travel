@@ -1,0 +1,22 @@
+/* Desktop 1280px+ */
+
+.intro__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

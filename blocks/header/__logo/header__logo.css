@@ -1,0 +1,19 @@
+/* Desktop 1280px+ */
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px){
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

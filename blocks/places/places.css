@@ -1,0 +1,35 @@
+/* Desktop 1280px+ */
+
+.places {
+    padding: 92px 148px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 80px;
+    box-sizing: border-box;
+}
+
+/* Laptop 1024px - 1279px*/
+
+@media screen and (max-width: 1279px) {
+    .places {
+        padding: 92px 48px;
+    }
+}
+
+/* Tablet 768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .places {
+        padding: 88px 24px 90px;
+    }
+}
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .places {
+        padding: 64px 0 66px;
+        row-gap: 50px
+    }
+}

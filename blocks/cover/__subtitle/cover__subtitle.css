@@ -1,0 +1,22 @@
+/* Desktop 1280px+ */
+
+.cover__subtitle {
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

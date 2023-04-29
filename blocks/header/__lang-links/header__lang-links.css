@@ -1,0 +1,18 @@
+/* Desktop 1280px+ */
+
+.header__lang-links {
+    margin: 0;
+    padding: 0;
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+    gap: 18px;
+    list-style-type: none;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/

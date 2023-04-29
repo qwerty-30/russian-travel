@@ -1,0 +1,26 @@
+/* Desktop 1280px+ */
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 18px;
+    list-style-type: none;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .footer__list {
+        grid-auto-flow: row;
+        row-gap: 32px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

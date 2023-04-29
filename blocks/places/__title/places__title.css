@@ -1,0 +1,29 @@
+/* Desktop 1280px+ */
+
+.places__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .places__title {
+        padding: 0 16px 0 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

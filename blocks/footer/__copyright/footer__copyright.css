@@ -1,0 +1,22 @@
+/* Desktop 1280px+ */
+
+.footer__copyright {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* Laptop 1024px - 1279px*/
+
+/* Tablet 768px - 1023px*/
+
+/* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
