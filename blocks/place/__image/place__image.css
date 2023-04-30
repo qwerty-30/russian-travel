@@ -1,6 +1,6 @@
 /* Desktop 1280px+ */
 
-.places__image {
+.place__image {
     width: 100%;
     object-fit: cover;
 }
@@ -12,7 +12,7 @@
 /* Mobile -767px*/
 
 @media screen and (max-width: 767px) {
-    .places__image {
+    .place__image {
         width: 100%;
         object-fit: cover;
     }

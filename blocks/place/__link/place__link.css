@@ -1,11 +1,10 @@
 /* Desktop 1280px+ */
 
-.places__url-heading {
-    margin: 0 0 12px;
-    color: #AAAAAA;
+.place__link {
+    text-decoration: underline;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 /* Laptop 1024px - 1279px*/
