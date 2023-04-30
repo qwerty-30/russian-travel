@@ -1,6 +1,6 @@
 /* Desktop 1280px+ */
 
-.places__place {
+.place {
     display: grid;
     grid-template-columns: 460px auto;
     grid-template-rows: repeat(2, auto);
@@ -12,7 +12,7 @@
 /* Laptop 1024px - 1279px*/
 
 @media screen and (max-width: 1279px) {
-    .places__place {
+    .place {
         grid-template-columns: 440px auto;
         column-gap: 32px;
     }
@@ -21,15 +21,16 @@
 /* Tablet 768px - 1023px*/
 
 @media screen and (max-width: 1023px) {
-    .places__place {
+    .place {
         grid-template-columns: 340px auto;
+        column-gap: 28px;
     }
 }
 
 /* Mobile -767px*/
 
 @media screen and (max-width: 767px) {
-    .places__place {
+    .place {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, auto);
         grid-auto-flow: row;

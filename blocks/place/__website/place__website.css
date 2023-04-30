@@ -1,6 +1,6 @@
 /* Desktop 1280px+ */
 
-.places__website {
+.place__website {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -13,7 +13,7 @@
 /* Mobile -767px*/
 
 @media screen and (max-width: 767px) {
-    .places__website {
+    .place__website {
         padding: 0 16px 0 16px;
         grid-row: 2/3;
     }
