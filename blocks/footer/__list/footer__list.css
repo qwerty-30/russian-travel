@@ -7,6 +7,9 @@
     grid-auto-flow: column;
     gap: 18px;
     list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 /* Laptop 1024px - 1279px*/
