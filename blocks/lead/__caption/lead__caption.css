@@ -14,4 +14,16 @@
 
 /* Tablet 768px - 1023px*/
 
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
 /* Mobile -767px*/
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}
